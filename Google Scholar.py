@@ -4,17 +4,19 @@ from selenium.webdriver import Keys, ActionChains
 from selenium.webdriver.common.by import By
 from time import sleep
 import re
+import matplotlib.pyplot as mp
 
 def search():
     From = 2011
-    to= 2020
-
-    driver = w.Chrome('./chromedriver')
+    to= 2023
+    XAxis = []
+    YAxis=[]
+    driver = w.Firefox()
 
     driver.get("https://scholar.google.com/schhp?hl=en&as_sdt=0,5")
     Search = driver.find_element(By.NAME, "q")
     
-    Search.send_keys("wind turbine mpc")
+    Search.send_keys("how autocracts prevails")
     Search.send_keys(Keys.RETURN)
     while True:
         try:
@@ -37,16 +39,20 @@ def search():
         Searchbutton.click()
         Find = driver.find_element(By.ID, "gs_ab_md")
         Results = Find.find_element(By.CLASS_NAME, "gs_ab_mdw").text
+        XAxis.append(int(re.search(r'[\d .]+', Results).group().replace(".", "")))
+        YAxis.append(From)
         print("In",From, "there are", int(re.search(r'[\d .]+', Results).group().replace(".", "")))
         From += 1
         
         
     driver.quit()
-
+    print(XAxis, YAxis)
+    mp.plot(YAxis,XAxis)
+    mp.show()
+    
     return Results
     
 def toptenresults():
     pass
 
 print(search())
-
