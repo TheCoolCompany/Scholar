@@ -1,0 +1,18 @@
+***
+"wind turbine" AND ("load reduction" AND ("individual pitch control" OR IPC))
+***
+
+In 2010, there are 52 results.
+In 2011, there are 97 results.
+In 2012, there are 76 results.
+In 2013, there are 105 results.
+In 2014, there are 121 results.
+In 2015, there are 104 results.
+In 2016, there are 136 results.
+In 2017, there are 85 results.
+In 2018, there are 137 results.
+In 2019, there are 87 results.
+In 2020, there are 136 results.
+In 2021, there are 93 results.
+In 2022, there are 104 results.
+In 2023, there are 94 results.
