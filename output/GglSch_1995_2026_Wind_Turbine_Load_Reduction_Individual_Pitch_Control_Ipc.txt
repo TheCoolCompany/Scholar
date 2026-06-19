@@ -1,0 +1,35 @@
+***
+"wind turbine" AND ("load reduction" AND ("individual pitch control" OR IPC))
+***
+
+In 1995, there are 0 results (text was: '')
+In 1996, there are 0 results (text was: '')
+In 1997, there are 0 results (text was: '')
+In 1998, there are 0 results (text was: '')
+In 1999, there are 0 results (text was: '')
+In 2000, there are 3 results.
+In 2001, there are 0 results (text was: '')
+In 2002, there are 0 results (text was: '1 result (0,05 sec)')
+In 2003, there are 4 results.
+In 2004, there are 2 results.
+In 2005, there are 4 results.
+In 2006, there are 10 results.
+In 2007, there are 16 results.
+In 2008, there are 18 results.
+In 2009, there are 39 results.
+In 2010, there are 52 results.
+In 2011, there are 97 results.
+In 2012, there are 76 results.
+In 2013, there are 105 results.
+In 2014, there are 121 results.
+In 2015, there are 104 results.
+In 2016, there are 136 results.
+In 2017, there are 85 results.
+In 2018, there are 137 results.
+In 2019, there are 87 results.
+In 2020, there are 136 results.
+In 2021, there are 93 results.
+In 2022, there are 104 results.
+In 2023, there are 94 results.
+In 2024, there are 129 results.
+In 2025, there are 129 results.
